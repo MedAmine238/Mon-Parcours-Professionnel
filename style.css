@@ -1,0 +1,90 @@
+/* Appliquer une police agréable */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour le header */
+header {
+    background-color: #5A9BFF; /* Bleu plus clair */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Style pour les sections */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+/* Style pour les titres des sections */
+section h2 {
+    color: #5A9BFF; /* Bleu plus clair */
+    border-bottom: 2px solid #5A9BFF;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Style pour les informations personnelles */
+section p {
+    margin: 10px 0;
+}
+
+/* Style pour les listes */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Style pour les expériences professionnelles */
+.experience-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #495057;
+}
+
+.experience-item p {
+    font-style: italic;
+    color: #868e96;
+}
+
+/* Style pour les projets et compétences */
+section ul li {
+    padding-left: 15px;
+    position: relative;
+}
+
+section ul li::before {
+    content: '•';
+    position: absolute;
+    left: 0;
+    color: #5A9BFF; /* Bleu plus clair */
+}
+
+/* Style pour les distinctions */
+section ul li.distinction {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+}
